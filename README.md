@@ -6,6 +6,7 @@ Command line tool to issue a query on Treasure Data and query a database and tab
 <h3>Maven plugin</h3>
 
 mvn spring-boot:run -Drun.arguments="--td=-t www_access --database sample_datasets -c host -c user -c path -l 10"
+
 mvn spring-boot:run -Drun.arguments="--td=-t www_access --database sample_datasets -c host -c user -c path -m 1412355591 -M 1412355600 -l 10"
 
 <ul>
